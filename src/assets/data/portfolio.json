@@ -1,0 +1,23 @@
+[
+    {
+        "image": "booki.avif",
+        "title": "Booki",
+        "text": "Création de la page d'accueil d'une agence de voyage avec HTML et CSS. Le projet inclut la structuration de contenu, la gestion multilingue et la navigation fluide.",
+        "link": "https://github.com/prudhommeeric/booki-OC.git",
+        "alt": "Booki - Création d'une page d'accueil d'agence de voyage"
+    },
+    {
+        "image": "sophie_bluel.avif",
+        "title": "Sophie Bluel",
+        "text": "Développement de la page de présentation des travaux d'une architecte d'intérieur avec HTML, CSS et JavaScript, intégrant des fonctionnalités interactives comme la modale pour gérer les médias.",
+        "link": "https://github.com/prudhommeeric/Sophie-Bluel---OC.git",
+        "alt": "Sophie Bluel - Présentation des travaux d'architecte d'intérieur"
+    },
+    {
+        "image": "kasa.avif",
+        "title": "Kasa",
+        "text": "Développement d'une application React pour la gestion des annonces de location d'appartements, avec des composants dynamiques, une navigation optimisée et des tests unitaires garantissant la stabilité.",
+        "link": "https://github.com/prudhommeeric/Kasa--OC.git",
+        "alt": "Kasa - Application React de gestion d'annonces de location"
+    }
+]

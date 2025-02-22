@@ -1,0 +1,23 @@
+[
+    {
+      "src": "src/assets/images/slideshow/entreprise1.avif",
+      "alt": "Entreprise 1"
+    },
+    {
+      "src": "src/assets/images/slideshow/entreprise2.avif",
+      "alt": "Entreprise 2"
+    },
+    {
+      "src": "src/assets/images/slideshow/entreprise3.avif",
+      "alt": "Entreprise 3"
+    },
+    {
+      "src": "src/assets/images/slideshow/entreprise4.avif",
+      "alt": "Entreprise 4"
+    },
+    {
+      "src": "src/assets/images/slideshow/entreprise5.avif",
+      "alt": "Entreprise 5"
+    }
+  ]
+  
