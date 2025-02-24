@@ -11,6 +11,7 @@ Ce projet est un portfolio personnel développé en **HTML, CSS, JavaScript** av
 - **Carrousel dynamique** affichant les logos des entreprises.
 - **Sections "Compétences" et "Projets"** pour mettre en avant mon expertise.
 - **Section "Contact"** avec des liens vers LinkedIn et email.
+- **Section "Expériences"** 
 
 ## Technologies utilisées
 - **HTML5 / CSS3**
@@ -34,17 +35,41 @@ Ce projet est un portfolio personnel développé en **HTML, CSS, JavaScript** av
 
 ## Structure du projet
 ```
-portfolio/
-│── index.html        # Page principale
-│── style.css         # Feuille de style principale
-│── carousel.css      # Styles du carrousel
-│── script/
-│   ├── script.js     # Script général
-│   ├── carousel.js   # Script du carrousel
-│── data/
-│   ├── carousel.json # Données du carrousel
-│── images/           # Dossier contenant les images
-```
+P12-testeur-logiciel-portfolio-1/
+│
+├── index.html           # Page d'accueil de ton portfolio
+├── README.md            # Documentation de ton projet
+│
+├── .vscode/             # Configurations de VS Code (si utilisé)
+│
+└── src/                 # Dossier source pour tous tes fichiers dynamiques
+    ├── assets/          # Dossier contenant les ressources (images, scripts, styles, données)
+    │   │   
+    │   ├── data/        # Fichiers JSON pour ton contenu dynamique (ex : portfolio.json, skills.json)
+    │   │   ├── carousel.json
+    │   │   ├── experiences.json
+    │   │   ├── portfolio.json
+    │   │   └── skills.json
+    │   │
+    │   ├── images/      # Dossier contenant toutes les images
+    │   │   ├── slideshow/
+    │   │   ├── booki.avif
+    │   │   ├── favicon.ico
+    │   │   ├── gestion-de-projet.avif
+    │   │   └── ...
+    │   │
+    │   ├── script/      # Dossier contenant tous les scripts JS
+    │   │   ├── carousel.js
+    │   │   ├── script.js
+    │   │   └── ...
+    │   │
+    │   └── style/       # Dossier contenant tous les fichiers CSS
+    │       ├── carousel.css
+    │       ├── experiences.css
+    │       ├── style.css
+    │       └── ...
+    │
+    └── ...
 
 ## Carrousel d'entreprises
 Les images du carrousel sont définies dans `data/carousel.json` :

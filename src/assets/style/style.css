@@ -28,6 +28,10 @@
   background-color: #5b5b5b;
 }
 
+.navbar {
+  padding-top: 0.1rem !important;
+}
+
 /* hero background image */
 .bgimage {
   height: 25vh;
