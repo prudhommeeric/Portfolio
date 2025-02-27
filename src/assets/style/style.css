@@ -156,6 +156,32 @@ section h2 {
   height: 100px;
 }
 
+/*icon */
+
+.contact-icon {
+   width: 4rem;
+  height: 4rem;
+  display: inline-block;
+  object-fit: contain;
+}
+
+
+.contactColumn {
+  text-align: center;
+}
+
+.contactColumn h3 {
+  margin-top: 10px;
+}
+
+.contactColumn p {
+  margin: 5px 0;
+}
+
+
+
+
+
 @media (max-width: 991px) {
   .hero_title {
     font-size: 1.5rem !important;
