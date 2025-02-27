@@ -32,6 +32,11 @@
   padding-top: 0.1rem !important;
 }
 
+.navbar-brand img {
+  height: 30px;
+  width: auto; /* Pour conserver les proportions de l'image */
+}
+
 /* hero background image */
 .bgimage {
   height: 25vh;
@@ -148,5 +153,36 @@
 
   .hero_desc {
     font-size: 1rem !important;
+  }
+
+  /* Spacing adjustments */
+  #about,
+  #skills,
+  #portfolio,
+  #contact,
+  #carousel,
+  #experiences {
+    margin-top: 1rem;
+    padding-top: 1rem;
+  }
+
+  /* Background and text positioning */
+  .bgimage {
+    height: 16vh; /* Hauteur ajustée en fonction de l'écran */
+    margin-top: 43px; /* Compense la hauteur de la navbar fixe */
+    position: relative;
+  }
+
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #c08732;
+    z-index: 10;
+  }
+
+  .imageAboutPage {
+    margin-bottom: 20px; /* Espace entre l'image et le texte */
   }
 }
