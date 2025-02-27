@@ -1,21 +1,24 @@
 /******* GENERAL *******/
-/* spacing on all sections */
-#about,
-#skills,
-#portfolio,
-#contact,
-#carousel,
-#experiences {
-  margin-top: 4rem;
+/* Déclaration des couleurs en variables */
+:root {
+  --dark-gray: #5b5b5b;
+  --dark-bg: #333;
+  --highlight-color: #c08732;
+  --success-color: #198754;
+  --green-color: #008000;
+}
+
+/* Spacing on all sections */
+body {
+  font-family: Arial, sans-serif;
+}
+
+section {
+  margin-top: 3rem;
   padding-top: 4rem;
 }
 
-#about h2,
-#skills h2,
-#portfolio h2,
-#contact h2,
-#carousel h2,
-#experiences h2 {
+section h2 {
   margin-bottom: 3rem;
 }
 
@@ -23,12 +26,14 @@
   padding-bottom: 4rem;
 }
 
-/* display background dark color on navbar scroll */
+/* Navbar */
 .navbarScroll.navbarDark {
-  background-color: #5b5b5b;
+  background-color: var(--dark-gray);
 }
 
 .navbar {
+  background-color: var(--dark-bg);
+  color: white;
   padding-top: 0.1rem !important;
 }
 
@@ -37,7 +42,7 @@
   width: auto; /* Pour conserver les proportions de l'image */
 }
 
-/* hero background image */
+/* Hero background image */
 .bgimage {
   height: 25vh;
   max-height: 900px;
@@ -46,62 +51,66 @@
   position: relative;
 }
 
-/* text css above hero image*/
+/* Text CSS above hero image */
 .hero_title {
   font-size: 4.5rem;
 }
+
 .hero_desc {
   font-size: 2rem;
 }
+
 .hero-text {
   text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #c08732;
+  color: var(--highlight-color);
 }
 
-/* about */
-/* 2 class identique
-.imageAboutPage {
-    width: 100%;
-}*/
+/* About */
 .imageAboutPage {
   width: 100%;
   border-radius: 50%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-/* skills */
+/* Skills */
 .skillsText.card {
   height: 350px;
   cursor: pointer;
 }
+
 .skillsText img {
   width: 100%;
   height: 150px;
   object-fit: contain;
 }
+
 #skills p {
   text-align: center;
 }
+
 .skillsIcon {
   font-size: 36px;
   text-align: center;
   width: 100%;
 }
+
 .card-title {
   text-align: center;
 }
+
 .card:hover .skillsIcon {
-  color: #008000;
-}
-.skillsText:hover {
-  border: 1px solid #008000;
+  color: var(--green-color);
 }
 
-/* portfolio */
+.skillsText:hover {
+  border: 1px solid var(--green-color);
+}
+
+/* Portfolio */
 #portfolio p {
   text-align: center;
 }
@@ -119,19 +128,20 @@
   justify-content: space-between;
 }
 
-/* contact */
+/* Contact */
 .contactColumn {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .contactColumn i {
-  color: #198754;
+  color: var(--success-color);
 }
 
-/* footer */
+/* Footer */
 
-/*carousel*/
+/* Carousel */
 #banner {
   position: relative;
   width: 100%;
@@ -148,7 +158,7 @@
 
 @media (max-width: 628px) {
   .hero_title {
-    font-size: 2.5rem !important;
+    font-size: 1.5rem !important;
   }
 
   .hero_desc {
@@ -156,12 +166,7 @@
   }
 
   /* Spacing adjustments */
-  #about,
-  #skills,
-  #portfolio,
-  #contact,
-  #carousel,
-  #experiences {
+  section {
     margin-top: 1rem;
     padding-top: 1rem;
   }
@@ -178,7 +183,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #c08732;
+    color: var(--highlight-color);
     z-index: 10;
   }
 
